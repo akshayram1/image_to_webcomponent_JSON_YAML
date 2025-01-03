@@ -1,0 +1,90 @@
+{
+    "$schema": "https://git.drupalcode.org/project/drupal/-/raw/HEAD/core/assets/schemas/v1/metadata.schema.json",
+    "name": "Space Social Button",
+    "status": "stable",
+    "group": "Atoms",
+    "props": {
+        "type": "object",
+        "properties": {
+            "text": {
+                "type": "string",
+                "title": "Social button text",
+                "description": "Text",
+                "examples": [
+                    "Sign in with Google."
+                ]
+            },
+            "text_colors": {
+                "type": "string",
+                "title": "Text Color",
+                "description": "Text Color",
+                "enum": [
+                    "white",
+                    "black",
+                    "heading",
+                    "body",
+                    "primaryLight",
+                    "primaryMedium",
+                    "primaryDark",
+                    "danger",
+                    "warning",
+                    "success",
+                    "neutralLight",
+                    "neutralMedium"
+                ],
+                "default": [
+                    "black"
+                ],
+                "examples": [
+                    "black"
+                ]
+            },
+            "social_button_link": {
+                "type": "string",
+                "title": "Social button link",
+                "description": "Social button link",
+                "examples": [
+                    "https://google.com"
+                ]
+            },
+            "background_color": {
+                "type": "string",
+                "title": "Background color",
+                "description": "Background color.",
+                "enum": [
+                    "transparent",
+                    "success",
+                    "danger",
+                    "white",
+                    "black",
+                    "neutralLight",
+                    "neutralMedium",
+                    "neutralDark",
+                    "neutralExtraDark",
+                    "primaryExtraLight",
+                    "primaryLight",
+                    "primaryMedium",
+                    "primaryDark",
+                    "primaryExtraDark",
+                    "facebookBlue"
+                ],
+                "default": [
+                    "transparent"
+                ],
+                "examples": [
+                    "transparent"
+                ]
+            }
+        }
+    },
+    "slots": {
+        "content": {
+            "type": "string",
+            "title": "Icon",
+            "description": "Content slot.",
+            "examples": [
+                "Icon"
+            ]
+        }
+    }
+}

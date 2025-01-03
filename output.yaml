@@ -1,0 +1,71 @@
+$schema: https://git.drupalcode.org/project/drupal/-/raw/HEAD/core/assets/schemas/v1/metadata.schema.json
+group: Atoms
+name: Space Social Button
+props:
+  properties:
+    background_color:
+      default:
+      - transparent
+      description: Background color.
+      enum:
+      - transparent
+      - success
+      - danger
+      - white
+      - black
+      - neutralLight
+      - neutralMedium
+      - neutralDark
+      - neutralExtraDark
+      - primaryExtraLight
+      - primaryLight
+      - primaryMedium
+      - primaryDark
+      - primaryExtraDark
+      - facebookBlue
+      examples:
+      - transparent
+      title: Background color
+      type: string
+    social_button_link:
+      description: Social button link
+      examples:
+      - https://google.com
+      title: Social button link
+      type: string
+    text:
+      description: Text
+      examples:
+      - Sign in with Google.
+      title: Social button text
+      type: string
+    text_colors:
+      default:
+      - black
+      description: Text Color
+      enum:
+      - white
+      - black
+      - heading
+      - body
+      - primaryLight
+      - primaryMedium
+      - primaryDark
+      - danger
+      - warning
+      - success
+      - neutralLight
+      - neutralMedium
+      examples:
+      - black
+      title: Text Color
+      type: string
+  type: object
+slots:
+  content:
+    description: Content slot.
+    examples:
+    - Icon
+    title: Icon
+    type: string
+status: stable

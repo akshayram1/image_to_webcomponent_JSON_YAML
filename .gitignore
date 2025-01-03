@@ -1,0 +1,7 @@
+# .gitignore
+
+# Ignore virtual environment directory
+venv/
+
+# Ignore .env file
+.env
